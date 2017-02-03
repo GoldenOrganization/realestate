@@ -578,6 +578,7 @@ housemap_arr.forEach(function(data,n){
     var displayed = $("input[name='optionsRadios']:checked").val();
 
     if($("#submited").text()=="提交更新"){
+
 $.post("posthouse",{
         id:id,
         name_cn: $("#name_cn").val(), 
